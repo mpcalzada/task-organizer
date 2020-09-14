@@ -29,7 +29,18 @@
 # To learn more, please read the Rails Internationalization guide
 # available at https://guides.rubyonrails.org/i18n.html.
 
-en:
-  hello: "Hello world"
+es:
+  task_categories:
+    new_category: Nueva Categoria
+    form:
+      name: Nombre
+      description: Descripción
+
+  activerecord:
+    models:
+      task_category:
+        one: Categoria
+        others: Categorias
+
   common:
-    back: "Back"
+    back: Atrás
